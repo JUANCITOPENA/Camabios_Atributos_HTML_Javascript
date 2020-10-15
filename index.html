@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="bombilla.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enceder y Apagar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>¿Qué puede hacer JavaScript?</h2>
+
+        <p>JavaScript puede cambiar los valores de los atributos HTML</p>
+
+        <p>En este caso, JavaScript cambia el valor del atributo src (fuente) de una imagen.</p>
+
+        <center>
+            <button class="apagar" onclick="document.getElementById('myImage').src='apagado-.gif'">Apagar el Bombillo</button>
+
+            <img id="myImage" src="prendido-.gif">
+
+            <button class="encender" onclick="document.getElementById('myImage').src='prendido-.gif'">Encender  el Bombillo</button>
+
+        </center>
+
+
+        <center>
+
+
+            <h1>Tambien Javascript Puede Cambiar el Fonde de Pantalla</h1>
+
+            <button class="negro" type="button" onclick="myFunction_apagar()">Apagar</button>
+
+            <div>
+                <script>
+                    function myFunction_apagar() {
+                        document.body.style.backgroundColor = "black";
+                    }
+                </script>
+
+                <button class="negro" type="button" onclick="myFunction_encender()">Encender</button>
+                <script>
+                    function myFunction_encender() {
+                        document.body.style.backgroundColor = "white";
+                    }
+                </script>
+
+            </div>
+        </center>
+    </div>
+
+</body>
+
+</html>

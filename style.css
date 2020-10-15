@@ -1,0 +1,63 @@
+body {
+    background-color: #f1f2f6;
+}
+
+#myImage {
+    width: 240px;
+    height: 350px;
+    margin: auto;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.apagar {
+    background-color: #2f3542;
+    /* Green */
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.encender {
+    background-color: #fff200;
+    /* Green */
+    border: none;
+    border-radius: 5%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.negro {
+    background-color: #747d8c;
+    /* Green */
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
