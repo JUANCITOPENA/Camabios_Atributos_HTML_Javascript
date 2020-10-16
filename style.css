@@ -6,12 +6,13 @@ body {
     width: 240px;
     height: 350px;
     margin: auto;
+    margin: 25px;
 }
 
 .container {
     background-color: #ffffff;
     margin: auto;
-    width: 50%;
+    width: 90%;
     border: 3px solid green;
     padding: 10px;
 }
@@ -60,4 +61,24 @@ p {
     display: inline-block;
     font-size: 16px;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 667px) {
+    #myImage {
+        width: 240px;
+        height: 350px;
+        margin: auto;
+    }
+    .container {
+        background-color: #ffffff;
+        margin: auto;
+        width: 90%;
+        border: 3px solid green;
+        padding: 10px;
+    }
+    h1,
+    h2,
+    p {
+        text-align: center;
+    }
 }
