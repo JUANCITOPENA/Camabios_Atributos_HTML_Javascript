@@ -1,4 +1,4 @@
-﻿## Practica para Camabios Atributos del HTML usando Javascript
+﻿## EJemplo Cambios Atributos del HTML usando Javascript
 
 ![](2020-10-15_15h33_50.png)
 
